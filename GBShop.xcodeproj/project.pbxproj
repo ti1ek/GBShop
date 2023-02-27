@@ -98,7 +98,7 @@
 				F44D3F5529ACF09A00EB4A25 /* App */,
 				F44D3F5B29ACF19000EB4A25 /* Resources */,
 				F44D3F5C29ACF19A00EB4A25 /* Environments */,
-				F44D3F5A29ACF18400EB4A25 /* Core */,
+				F44D3F5D29ACF4E600EB4A25 /* Core */,
 			);
 			path = GBShop;
 			sourceTree = "<group>";
@@ -161,13 +161,6 @@
 			path = Flows;
 			sourceTree = "<group>";
 		};
-		F44D3F5A29ACF18400EB4A25 /* Core */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Core;
-			sourceTree = "<group>";
-		};
 		F44D3F5B29ACF19000EB4A25 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -183,6 +176,13 @@
 				F44D3F3329ACEEB400EB4A25 /* Info.plist */,
 			);
 			path = Environments;
+			sourceTree = "<group>";
+		};
+		F44D3F5D29ACF4E600EB4A25 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
