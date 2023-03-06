@@ -27,10 +27,8 @@
 		F44D3F7529B0F4CD00EB4A25 /* RegistrationAndChanges.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44D3F7429B0F4CD00EB4A25 /* RegistrationAndChanges.swift */; };
 		F44D3F7729B0F4E900EB4A25 /* ProductsRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44D3F7629B0F4E900EB4A25 /* ProductsRequests.swift */; };
 		F44D3F7929B0F50E00EB4A25 /* LoginResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44D3F7829B0F50E00EB4A25 /* LoginResult.swift */; };
-		F44D3F7B29B0F51F00EB4A25 /* LogoutResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44D3F7A29B0F51F00EB4A25 /* LogoutResult.swift */; };
+		F44D3F7B29B0F51F00EB4A25 /* DefaultResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44D3F7A29B0F51F00EB4A25 /* DefaultResult.swift */; };
 		F44D3F7D29B0F53000EB4A25 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44D3F7C29B0F53000EB4A25 /* User.swift */; };
-		F44D3F7F29B0F54300EB4A25 /* RegistrationUserResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44D3F7E29B0F54300EB4A25 /* RegistrationUserResult.swift */; };
-		F44D3F8129B0F55600EB4A25 /* ChangeUserDataResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44D3F8029B0F55600EB4A25 /* ChangeUserDataResult.swift */; };
 		F44D3F8329B0F56900EB4A25 /* ProductList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44D3F8229B0F56900EB4A25 /* ProductList.swift */; };
 		F44D3F8529B0F57C00EB4A25 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44D3F8429B0F57C00EB4A25 /* Product.swift */; };
 		F44D3F8729B0F59C00EB4A25 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44D3F8629B0F59C00EB4A25 /* ViewController.swift */; };
@@ -79,10 +77,8 @@
 		F44D3F7429B0F4CD00EB4A25 /* RegistrationAndChanges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationAndChanges.swift; sourceTree = "<group>"; };
 		F44D3F7629B0F4E900EB4A25 /* ProductsRequests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsRequests.swift; sourceTree = "<group>"; };
 		F44D3F7829B0F50E00EB4A25 /* LoginResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResult.swift; sourceTree = "<group>"; };
-		F44D3F7A29B0F51F00EB4A25 /* LogoutResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoutResult.swift; sourceTree = "<group>"; };
+		F44D3F7A29B0F51F00EB4A25 /* DefaultResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultResult.swift; sourceTree = "<group>"; };
 		F44D3F7C29B0F53000EB4A25 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
-		F44D3F7E29B0F54300EB4A25 /* RegistrationUserResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationUserResult.swift; sourceTree = "<group>"; };
-		F44D3F8029B0F55600EB4A25 /* ChangeUserDataResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeUserDataResult.swift; sourceTree = "<group>"; };
 		F44D3F8229B0F56900EB4A25 /* ProductList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductList.swift; sourceTree = "<group>"; };
 		F44D3F8429B0F57C00EB4A25 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		F44D3F8629B0F59C00EB4A25 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -187,12 +183,10 @@
 			isa = PBXGroup;
 			children = (
 				F44D3F7829B0F50E00EB4A25 /* LoginResult.swift */,
-				F44D3F7A29B0F51F00EB4A25 /* LogoutResult.swift */,
+				F44D3F7A29B0F51F00EB4A25 /* DefaultResult.swift */,
 				F44D3F7C29B0F53000EB4A25 /* User.swift */,
-				F44D3F7E29B0F54300EB4A25 /* RegistrationUserResult.swift */,
 				F44D3F8229B0F56900EB4A25 /* ProductList.swift */,
 				F44D3F8429B0F57C00EB4A25 /* Product.swift */,
-				F44D3F8029B0F55600EB4A25 /* ChangeUserDataResult.swift */,
 			);
 			path = Entity;
 			sourceTree = "<group>";
@@ -407,13 +401,11 @@
 				F44D3F6829B0F40A00EB4A25 /* RequestRouter.swift in Sources */,
 				F44D3F7529B0F4CD00EB4A25 /* RegistrationAndChanges.swift in Sources */,
 				F44D3F2629ACEEAC00EB4A25 /* AppDelegate.swift in Sources */,
-				F44D3F7B29B0F51F00EB4A25 /* LogoutResult.swift in Sources */,
+				F44D3F7B29B0F51F00EB4A25 /* DefaultResult.swift in Sources */,
 				F44D3F7D29B0F53000EB4A25 /* User.swift in Sources */,
-				F44D3F7F29B0F54300EB4A25 /* RegistrationUserResult.swift in Sources */,
 				F44D3F2829ACEEAC00EB4A25 /* SceneDelegate.swift in Sources */,
 				F44D3F6629B0F3F500EB4A25 /* AbstractRequestFactory.swift in Sources */,
 				F44D3F6D29B0F48100EB4A25 /* RegistrationAndDataChangesFactory.swift in Sources */,
-				F44D3F8129B0F55600EB4A25 /* ChangeUserDataResult.swift in Sources */,
 				F44D3F6B29B0F46E00EB4A25 /* AuthRequestFactory.swift in Sources */,
 				F44D3F6F29B0F49300EB4A25 /* ProductsRequestFactory.swift in Sources */,
 				F44D3F7729B0F4E900EB4A25 /* ProductsRequests.swift in Sources */,
@@ -590,7 +582,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = GBShop/Info.plist;
+				INFOPLIST_FILE = GBShop/Environments/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -617,7 +609,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = GBShop/Info.plist;
+				INFOPLIST_FILE = GBShop/Environments/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
